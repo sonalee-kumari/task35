@@ -1,0 +1,22 @@
+{
+  "name": "workout-buddy-mern",
+  "version": "1.0.0",
+  "description": "Complete MERN Stack Workout Buddy application with Context API + useReducer",
+  "scripts": {
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"blue,green\" \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "useReducer",
+    "context-api"
+  ]
+}
